@@ -1,0 +1,626 @@
+/* montserrat-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+
+  src: url("../fonts/montserrat-v26-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --main-color: #037e8c;
+  --bg-main: #fff;
+  --text-main: #121214;
+  --text-secondary: #393939;
+  --text-tertiary: #fff;
+  --bottom-text: #787878;
+  font-size: 62.5%;
+  font-family: "Montserrat", "sans-serif";
+}
+body {
+  color: var(--text-main);
+  font-size: 1.4rem;
+  font-weight: 600;
+  position: relative;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.btn {
+  padding: 11px;
+  width: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border-radius: 9px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.btn_2 {
+  width: 277px;
+}
+.btn_1 {
+  width: 220px;
+}
+.btn-gr {
+  background-color: var(--main-color);
+  color: var(--bg-main);
+}
+.btn-tr {
+  background-color: transparent;
+  color: var(--main-color);
+  border: 0.15rem solid var(--main-color);
+}
+header .wrapper {
+  display: flex;
+}
+.burger_menu {
+  background-color: transparent;
+  color: var(--bg-main);
+  border: none;
+  margin-left: auto;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+}
+.section-1 .wrapper {
+  padding: 168px 18px 60px 18px;
+}
+.section-1 {
+  background-color: #9b9a9a;
+  background-image: url(/images/d9e23d5734e4dbe417f12adf69e819ef.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-4 {
+  background-color: #9b9a9a;
+}
+h1 {
+  color: var(--bg-main);
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  margin: 162px 33px 16px 33px;
+}
+.section-1 p {
+  color: var(--bg-main);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.08rem;
+  margin: 16px 99px auto 33px;
+  max-width: 228px;
+}
+.section-1 button {
+  color: var(--bg-main);
+  line-height: 1.52rem;
+  margin: 42px 107px auto 33px;
+}
+.div-12 {
+  display: inline-block;
+  flex-wrap: nowrap;
+}
+.div-1 {
+  display: inline-block;
+  flex-wrap: wrap;
+  max-width: 160px;
+  max-height: 197px;
+}
+.section-2 .div-1 {
+  margin: 30px 190px 4px 10px;
+  max-width: 160px;
+  max-height: 197px;
+}
+.div-1 > h3 {
+  font-size: 1.6rem;
+  line-height: 1.92rem;
+}
+.div-1 > p {
+  font-weight: 400;
+  line-height: 1.92rem;
+}
+.div-2 {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.section-2 .div-2 {
+  margin: 32px 10px 43px 190px;
+  max-width: 160px;
+  max-height: 156px;
+}
+.div-2 > h3 {
+  font-size: 1.6rem;
+  line-height: 1.92rem;
+}
+.div-2 > p {
+  font-weight: 400;
+  line-height: 1.92rem;
+}
+.section-2 .div-3 {
+  margin: 4px 20px 44px 10px;
+  max-width: 160px;
+  max-height: 170px;
+}
+.div-3 > h3 {
+  font-size: 1.6rem;
+  line-height: 1.92rem;
+}
+.div-3 > p {
+  font-weight: 400;
+  line-height: 1.92rem;
+}
+.section-2 .div-4 {
+  margin: 43px 10px 49px 190px;
+  max-width: 160px;
+  max-height: 165px;
+}
+.div-4 > h3 {
+  font-size: 1.6rem;
+  line-height: 1.92rem;
+}
+.div-4 > p {
+  font-weight: 400;
+  line-height: 1.92rem;
+}
+.s3h2-1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.12rem;
+  text-align: center;
+  margin: 35px 80px 36px 60px;
+}
+.s3h3-1 {
+  margin: 102px 10px 0px 12px;
+}
+.rbp-1 {
+  margin: 0px 10px 17px 12px;
+}
+.s3h3-1 {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+.rbp-1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.96rem;
+}
+.rbp-2 {
+  margin: 17px 128px 7px 14px;
+}
+.rbp-2 {
+  font-weight: 400;
+  line-height: 1.52rem;
+}
+.rbp-21 {
+  line-height: 1.52rem;
+}
+.rbp-3 {
+  margin: 7px 143px 4px 12px;
+}
+.rbp-3 {
+  font-weight: 400;
+  line-height: 1.52rem;
+}
+.rbp-31 {
+  line-height: 1.52rem;
+}
+.rbp-4 {
+  margin: 4px 191px 14px 12px;
+}
+.rbp-4 {
+  font-weight: 400;
+  line-height: 1.52rem;
+}
+.rbp-41 {
+  line-height: 1.52rem;
+}
+.rbp-5 {
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  margin: 17px 259px 9px 12px;
+}
+.rbp-6 {
+  font-weight: 400;
+  line-height: 2.24rem;
+  margin: 11px 12px 27px 11px;
+}
+.rbb-1 {
+  color: var(--main-color);
+  line-height: 1.82rem;
+  margin: 1rem;
+}
+.rbb-2 {
+  color: var(--bg-main);
+  line-height: 1.82rem;
+  margin: 1rem;
+}
+.s3h3-2 {
+  font-size: 2.4rem;
+  line-height: 2.61rem;
+  margin: 68px 135px 0px 10px;
+}
+.rep-1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.96rem;
+  margin: 0px 268px 17px 10px;
+}
+.rep-2 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 17px 127px 7px 12px;
+}
+.rep-21 {
+  line-height: 1.52rem;
+}
+.rep-3 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 7px 143px 4px 10px;
+}
+.rep-31 {
+  line-height: 1.52rem;
+}
+.rep-4 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 4px 193px 14px 10px;
+}
+.rep-41 {
+  line-height: 1.52rem;
+}
+.rep-5 {
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  margin: 17px 259px 9px 12px;
+}
+.rep-6 {
+  font-weight: 400;
+  line-height: 2.24rem;
+  margin: 9px 12px 27px 11px;
+}
+.btn-wrapper {
+  display: flex;
+}
+.reb-1 {
+  color: var(--main-color);
+  line-height: 1.82rem;
+  margin: 1rem;
+  display: flex;
+}
+.reb-2 {
+  color: var(--bg-main);
+  line-height: 1.82rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.s3h3-3 {
+  font-size: 2.4rem;
+  line-height: 2.61rem;
+  margin: 70px 190px 0px 10px;
+}
+.rop-1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.96rem;
+  margin: 0px 276px 17px 10px;
+}
+.rop-2 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 17px 158px 7px 12px;
+}
+.rop-21 {
+  line-height: 1.52rem;
+}
+.rop-3 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 7px 142px 4px 10px;
+}
+.rop-31 {
+  line-height: 1.52rem;
+}
+.rop-4 {
+  font-weight: 400;
+  line-height: 1.52rem;
+  margin: 4px 193px 14px 10px;
+}
+.rop-41 {
+  line-height: 1.52rem;
+}
+.rop-5 {
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  margin: 17px 259px 9px 12px;
+}
+.rop-6 {
+  font-weight: 400;
+  line-height: 2.24rem;
+  margin: 9px 12px 71px 11px;
+}
+.rob-1 {
+  color: var(--main-color);
+  line-height: 1.82rem;
+  margin: 1rem;
+}
+.rob-2 {
+  color: var(--bg-main);
+  line-height: 1.82rem;
+  margin: 1rem;
+}
+.section-4 h2 {
+  color: var(--bg-main);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.82rem;
+  text-align: center;
+  margin: 45px 22px 19px 21px;
+}
+.section-4 p {
+  color: var(--bg-main);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.82rem;
+  text-align: center;
+  margin: 19px 10px 33px 9px;
+}
+.section-4 button {
+  color: var(--bg-main);
+  line-height: 1.82rem;
+  margin: 33px 92.5px 49px 92.5px;
+}
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-5 h2 {
+  color: var(--text-main);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.12rem;
+  text-align: center;
+  margin: 95px 84px 24px 84px;
+}
+.starttest {
+  justify-content: center;
+  display: flex;
+}
+.Juli {
+  margin: 2px 20px 0px 10px;
+}
+.Maks {
+  margin: 2px 10px 0px 190px;
+}
+.Kris {
+  margin: 2px 20px 0px 10px;
+}
+.Yuri {
+  margin: 2px 10px 0px 190px;
+}
+.tmt {
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.34rem;
+}
+.tlt {
+  font-weight: 400;
+  line-height: 1.82rem;
+}
+.section-6 h2 {
+  color: var(--text-main);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.12rem;
+  margin: 34px 3px 17px 4px;
+  text-align: center;
+}
+.sec6-p {
+  font-weight: 400;
+  line-height: 1.68rem;
+  background-color: white;
+  text-align: center;
+}
+.sec6-pb1 {
+  line-height: 1.68rem;
+}
+.s7-spb {
+  color: var(--main-color);
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 3.336rem;
+  word-wrap: normal;
+  margin: auto 140px 9px 34px;
+}
+.s7-spn {
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.336rem;
+  max-width: 242px;
+  word-wrap: normal;
+}
+.s7-spl {
+  color: var(--text-secondary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.92rem;
+  margin: 9px 84px 22px 34px;
+}
+.section-7 button {
+  color: var(--main-color);
+  line-height: 1.82rem;
+  max-width: 147px;
+  max-height: 35px;
+  margin: 9px 179px 10px 34px;
+}
+.section-7 h2 {
+  color: var(--text-secondary);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.12rem;
+  margin: 25px 56px 27px 55px;
+  text-align: center;
+}
+.section-8 h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.12rem;
+  text-align: center;
+}
+.s8-p1 {
+  color: var(--main-color);
+  background-color: #9b9a9a;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.08rem;
+  text-align: center;
+}
+.s8-p2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.9rem;
+  margin: 19px 40px auto 91px;
+}
+.s8-p3 {
+  color: var(--bg-main);
+  background-color: #9b9a9a;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.232rem;
+  margin: 31px 102px auto 32px;
+}
+.s8-p4 {
+  color: var(--bg-main);
+  background-color: #9b9a9a;
+  font-weight: 400;
+  line-height: 1.82rem;
+  margin: 3px 16px auto 32px;
+}
+.s8-p5 {
+  font-weight: 400;
+  line-height: 2.1rem;
+  margin: 24px 6px 14px 12px;
+}
+.section-8 button {
+  color: var(--main-color);
+  line-height: 1.82rem;
+  width: 277px;
+  white-space: nowrap;
+  margin: 14px 71px 46px 12px;
+}
+.section-9 h2 {
+  color: var(--text-secondary);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  text-align: center;
+  margin: 30px 100px 14px 99px;
+}
+.s9s {
+  font-size: 1.6rem;
+  margin: 20px 158px 26px 20px;
+}
+.s9-p {
+  color: var(--text-secondary);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 6px 18px 3px 22px;
+}
+.s9-pq {
+  font-size: 2rem;
+  text-align: center;
+}
+.s9-p1 {
+  font-weight: 400;
+  text-align: center;
+  margin: 11px auto 11px auto;
+  line-height: 1.82rem;
+}
+.section-9 button {
+  color: var(--bg-main);
+  line-height: 1.82rem;
+  margin: 0 auto;
+  display: block;
+}
+.footer h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.37rem;
+  margin: 69.5px 222px 17px 12px;
+}
+.footp {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.987rem;
+  margin: 28px 83px auto 64px;
+}
+.writeus {
+  font-size: 1.8rem;
+  line-height: 2.722rem;
+  margin: 16px 208px 35px 13px;
+}
+.foota {
+  line-height: 2.24rem;
+  margin: auto;
+  text-align: right;
+  height: 132px;
+}
+.lastp {
+  color: var(--bottom-text);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.52rem;
+}
